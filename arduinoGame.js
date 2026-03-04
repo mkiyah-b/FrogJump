@@ -134,11 +134,11 @@ function draw() {
 
   fill(0)
   textSize(18)
-  text("Current Score", 590, 20)
-  text("High Score", 710, 20)
+  text("Current Score", 790, 20)
+  text("High Score", 910, 20)
   textSize(20)
-  text(currentScore, 590, 40)
-  text(highScore, 710, 40)
+  text(currentScore, 790, 40)
+  text(highScore, 910, 40)
 }  
 
 function connectBtnClick() {
@@ -227,3 +227,4 @@ function message() {
     }
   }
 }
+
